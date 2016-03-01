@@ -1,0 +1,13 @@
+title: SmartGit使用手册
+date: 2016-01-29
+tags:
+- CVS
+---
+
+ # 授权文件问题
+由于smartgit是收费软件,当你使用的免费天数到了，就会提示你导入授权文件。否则就不能使用了。如果还想继续使用的话，则进入以下目录。并删除setting.xml文件。删除后重新打开即可重新使用。
+```
+Windows：         %APPDATA%\syntevo\SmartGit\
+OS X：    	      ~/Library/Preferences/SmartGit/
+Unix/Linux：      ~/.smartgit/
+```
